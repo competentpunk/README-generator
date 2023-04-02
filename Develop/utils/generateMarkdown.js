@@ -60,17 +60,24 @@ function generateMarkdown(data) {
 
   ## Description
 
-  ${data.motivation} 
+  ${data.description} 
 
-  ${data.why}
+  ## Installation
 
-  ${data.problemsolve}
+  ${data.install}
+
+  ##Usage
+
+  ${data.usage}
   
-  ${data.learn}
+## Contributions
+
+  ${data.contribution}
+
+  ## Test
+  
+  ${data.testing}
   `;
 }
-
-// Am I going into the other js files to get this info?
-
 
 module.exports = generateMarkdown;

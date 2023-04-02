@@ -14,34 +14,39 @@ const questions = [
   {
     type: "input",
     name: "deployedlink",
-    message: "Deployed link here",
+    message: "Add deployed link here:",
   },
 
   {
     type: "input",
-    name: "motivation",
-    message: "What was your motivation?",
+    name: "description",
+    message: "Describe the purpose of this project:",
   },
   {
     type: "input",
-    name: "why",
-    message: "Why did you build this project?",
+    name: "install",
+    message: "Installation instructions:",
   },
   {
     type: "input",
-    name: "problemsolve",
-    message: "What problem does it solve?",
+    name: "usage",
+    message: "How is this app used?",
   },
   {
     type: "input",
-    name: "learn",
-    message: "What did you learn?",
+    name: "contribution",
+    message: "Who contributed to this project?",
+  },
+  {
+    type: "input",
+    name: "testing",
+    message: "How do you test this app?",
   },
   {
     type: "list",
     name: "license",
     message: "Which license did you choose?",
-    choices: ["MIT", "???", "???", "None"],
+    choices: ["MIT", "GPLv3", "GPL", "None"],
   },
 ];
 
