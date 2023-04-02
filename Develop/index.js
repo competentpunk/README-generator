@@ -8,6 +8,17 @@ const path = require("path");
 const questions = [
   {
     type: "input",
+    name: "title",
+    message: "What is the project title?",
+  },
+  {
+    type: "input",
+    name: "deployedlink",
+    message: "Deployed link here",
+  },
+
+  {
+    type: "input",
     name: "motivation",
     message: "What was your motivation?",
   },
@@ -25,6 +36,12 @@ const questions = [
     type: "input",
     name: "learn",
     message: "What did you learn?",
+  },
+  {
+    type: "list",
+    name: "license",
+    message: "Which license did you choose?",
+    choices: ["MIT", "???", "???", "None"],
   },
 ];
 
