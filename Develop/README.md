@@ -1,7 +1,9 @@
 # README Generator
   ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-  [Deployed Application Link](https://github.com/competentpunk/README-generator)
+  [README Generator Link](https://github.com/competentpunk/README-generator)
+
+  [Screencastify Link](https://watch.screencastify.com/v/7xgaSCVHXFzT74egbQid)
 
 
   ## Description
