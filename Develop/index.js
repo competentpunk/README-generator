@@ -50,6 +50,7 @@ function writeToFile(fileName, data) {
   return fs.writeFileSync(path.join(process.cwd(), fileName), data);
   // us fs here to write file and path
 }
+
 // pull the questions array and add a place for input
 function init() {
   inquirer.prompt(questions).then((inquirerResponses) => {
@@ -58,5 +59,6 @@ function init() {
   });
   // inquirer and generateMarkdown
 }
+
 // Function call to initialize app
 init();
