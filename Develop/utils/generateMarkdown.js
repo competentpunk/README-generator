@@ -22,7 +22,6 @@ function renderLicenseLink(license) {
   let yourLicense = ``
   if(licenseType === 'MIT') {
     yourLicense = `[License: MIT](https://opensource.org/license/mit/)`
-    // Find proper links to documentation BELOW
   } else if (licenseType === 'GPLv3') {
     yourLicense = `[GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)`
   } else if (licenseType === 'GPL') {
